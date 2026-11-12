@@ -1,8 +1,8 @@
-function App(){
-  return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-amber-400">Mike VanSummern</h1>
-    </main>
-  )
+import Home from './pages/Home';
+
+function App() {
+  return <Home />
 }
+
+
 export default App;
